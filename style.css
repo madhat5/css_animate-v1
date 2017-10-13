@@ -1,0 +1,7 @@
+.banner {
+    width: 250px;
+    height: 185px;
+    position: relative;
+    background-color: #333333;
+    animation-name: houseBanner;
+}
