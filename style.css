@@ -1,10 +1,59 @@
+body {
+    margin-top:1px !important;
+}
+
 .banner {
     width: 250px;
-    height: 750px;
+    height: 725px;
     position: relative;
     background-color: #333333;
     animation-name: houseBanner;
     animation-duration: 3s;
+}
+
+.bannerOne {
+    background-color: #d4cdb2;
+    border-left: 10px solid #7b9070;
+    border-right: 10px solid #7b9070;
+}
+
+.winter1 {
+    text-align: center;
+    display: block;
+    font-size: 26px;
+    color: #939393;
+    position: relative;
+    top: 450px;
+    /*animation-name: winterWords1;
+    animation-duration: 3s;
+    animation-delay: 6s;*/
+}
+
+.winter2 {
+    text-align: center;
+    font-size: 26px;
+    color: #939393;
+    position: relative;
+    top: 455px;
+    /*animation-name: winterWords1;
+    animation-duration: 3s;*/
+}
+
+.winter3 {
+    text-align: center;
+    font-size: 26px;
+    color: #939393;
+    position: relative;
+    top: 460px;
+    /*animation-name: winterWords1;
+    animation-duration: 3s;*/
+}
+
+.winterHouseSigil img {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    top: 300px;
 }
 
 @keyframes houseBanner {
@@ -14,25 +63,5 @@
 
     to {
         margin-top: 0%;
-    }
-}
-
-.winter1 {
-    text-align: center;
-    font-size: 21px;
-    color: #ffffff;
-    position: relative;
-    top: 450px;
-    animation-name: winterWords1;
-    animation-duration: 3s;
-}
-
-@keyframes winterWords1 {
-    from {
-        margin-top: 0%;
-    }
-
-    to {
-        margin-top: 1000%;
     }
 }
