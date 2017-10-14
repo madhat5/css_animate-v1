@@ -15,48 +15,49 @@ body {
     background-color: #d4cdb2;
     border-left: 10px solid #7b9070;
     border-right: 10px solid #7b9070;
+    border-bottom: 10px solid #7b9070;
 }
 
-.winter1 {
+.wolf1 {
     text-align: center;
     display: block;
     font-size: 26px;
     color: #939393;
     position: relative;
     top: 450px;
-    /*animation-name: winterWords1;
+    /*animation-name: wolfWords1;
     animation-duration: 3s;
     animation-delay: 6s;*/
 }
 
-.winter2 {
+.wolf2 {
     text-align: center;
     font-size: 26px;
     color: #939393;
     position: relative;
     top: 455px;
-    /*animation-name: winterWords1;
+    /*animation-name: wolfWords1;
     animation-duration: 3s;*/
 }
 
-.winter3 {
+.wolf3 {
     text-align: center;
     font-size: 26px;
     color: #939393;
     position: relative;
     top: 460px;
-    /*animation-name: winterWords1;
+    /*animation-name: wolfWords1;
     animation-duration: 3s;*/
 }
 
-.winterHouseSigil img {
+.wolfHouseSigil img {
     align-items: center;
     display: block;
     margin: 0 auto;
     top: 300px;
 }
 
-@keyframes houseBanner {
+/*@keyframes houseBanner {
     from {
         margin-top: 100%;
     }
@@ -64,4 +65,142 @@ body {
     to {
         margin-top: 0%;
     }
+}*/
+
+.bannerTwo {
+    background-color: #000000;
+    border-left: 10px solid #a30c04;
+    border-right: 10px solid #a30c04;
+    border-bottom: 10px solid #a30c04;
+}
+
+.dragon1 {
+    text-align: center;
+    display: block;
+    font-size: 26px;
+    color: #923326;
+    position: relative;
+    top: 450px;
+    /*animation-name: dragonWords1;
+    animation-duration: 3s;
+    animation-delay: 6s;*/
+}
+
+.dragon2 {
+    text-align: center;
+    font-size: 26px;
+    color: #923326;
+    position: relative;
+    top: 455px;
+    /*animation-name: dragonWords1;
+    animation-duration: 3s;*/
+}
+
+.dragon3 {
+    text-align: center;
+    font-size: 26px;
+    color: #923326;
+    position: relative;
+    top: 460px;
+    /*animation-name: dragonWords1;
+    animation-duration: 3s;*/
+}
+
+.dragonHouseSigil img {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    top: 300px;
+}
+
+.bannerThree {
+    background-color: #8b0800;
+    border-left: 10px solid #e1ab05;
+    border-right: 10px solid #e1ab05;
+    border-bottom: 10px solid #e1ab05;
+}
+
+.lion1 {
+    text-align: center;
+    display: block;
+    font-size: 26px;
+    color: #dc9c1d;
+    position: relative;
+    top: 450px;
+    /*animation-name: lionWords1;
+    animation-duration: 3s;
+    animation-delay: 6s;*/
+}
+
+.lion2 {
+    text-align: center;
+    font-size: 26px;
+    color: #dc9c1d;
+    position: relative;
+    top: 455px;
+    /*animation-name: lionWords1;
+    animation-duration: 3s;*/
+}
+
+.lion3 {
+    text-align: center;
+    font-size: 26px;
+    color: #dc9c1d;
+    position: relative;
+    top: 460px;
+    /*animation-name: lionWords1;
+    animation-duration: 3s;*/
+}
+
+.lionHouseSigil img {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    top: 300px;
+}
+
+.bannerFour {
+    background-color: #e3c606;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    border-bottom: 10px solid #000000;
+}
+
+.stag1 {
+    text-align: center;
+    display: block;
+    font-size: 26px;
+    color: #000000;
+    position: relative;
+    top: 450px;
+    /*animation-name: stagWords1;
+    animation-duration: 3s;
+    animation-delay: 6s;*/
+}
+
+.stag2 {
+    text-align: center;
+    font-size: 26px;
+    color: #000000;
+    position: relative;
+    top: 455px;
+    /*animation-name: stagWords1;
+    animation-duration: 3s;*/
+}
+
+.stag3 {
+    text-align: center;
+    font-size: 26px;
+    color: #000000;
+    position: relative;
+    top: 460px;
+    /*animation-name: stagWords1;
+    animation-duration: 3s;*/
+}
+
+.stagHouseSigil img {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    top: 300px;
 }
