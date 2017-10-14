@@ -12,6 +12,8 @@ body {
 }
 
 .bannerOne {
+    display: inline-block;
+    margin: 0 15px;
     background-color: #d4cdb2;
     border-left: 10px solid #7b9070;
     border-right: 10px solid #7b9070;
@@ -57,17 +59,9 @@ body {
     top: 300px;
 }
 
-/*@keyframes houseBanner {
-    from {
-        margin-top: 100%;
-    }
-
-    to {
-        margin-top: 0%;
-    }
-}*/
-
 .bannerTwo {
+    display: inline-block;
+    margin: 0 15px;
     background-color: #000000;
     border-left: 10px solid #a30c04;
     border-right: 10px solid #a30c04;
@@ -114,6 +108,8 @@ body {
 }
 
 .bannerThree {
+    display: inline-block;
+    margin: 0 15px;
     background-color: #8b0800;
     border-left: 10px solid #e1ab05;
     border-right: 10px solid #e1ab05;
@@ -160,6 +156,8 @@ body {
 }
 
 .bannerFour {
+    display: inline-block;
+    margin: 0 15px;
     background-color: #e3c606;
     border-left: 10px solid #000000;
     border-right: 10px solid #000000;
@@ -203,4 +201,15 @@ body {
     display: block;
     margin: 0 auto;
     top: 300px;
+}
+
+
+@keyframes houseBanner {
+    from {
+        margin-top: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
 }
