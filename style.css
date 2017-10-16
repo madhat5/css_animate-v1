@@ -7,8 +7,9 @@ body {
     height: 725px;
     position: relative;
     background-color: #333333;
-    animation-name: houseBanner;
-    animation-duration: 3s;
+    display: inline-block;;
+    /*animation-name: houseBanner;
+    animation-duration: 3s;*/
 }
 
 .bannerOne {
@@ -18,6 +19,8 @@ body {
     border-left: 10px solid #7b9070;
     border-right: 10px solid #7b9070;
     border-bottom: 10px solid #7b9070;
+    animation-name: wolfBanner;
+    animation-duration: 3s;
 }
 
 .wolf1 {
@@ -34,6 +37,7 @@ body {
 
 .wolf2 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #939393;
     position: relative;
@@ -44,6 +48,7 @@ body {
 
 .wolf3 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #939393;
     position: relative;
@@ -56,7 +61,8 @@ body {
     align-items: center;
     display: block;
     margin: 0 auto;
-    top: 300px;
+    position: relative;
+    top: 30px;
 }
 
 .bannerTwo {
@@ -66,6 +72,9 @@ body {
     border-left: 10px solid #a30c04;
     border-right: 10px solid #a30c04;
     border-bottom: 10px solid #a30c04;
+    animation-name: dragonBanner;
+    animation-duration: 3s;
+    animation-delay: 5s;
 }
 
 .dragon1 {
@@ -82,6 +91,7 @@ body {
 
 .dragon2 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #923326;
     position: relative;
@@ -92,6 +102,7 @@ body {
 
 .dragon3 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #923326;
     position: relative;
@@ -104,7 +115,8 @@ body {
     align-items: center;
     display: block;
     margin: 0 auto;
-    top: 300px;
+    position: relative;
+    top: 10px;
 }
 
 .bannerThree {
@@ -114,6 +126,8 @@ body {
     border-left: 10px solid #e1ab05;
     border-right: 10px solid #e1ab05;
     border-bottom: 10px solid #e1ab05;
+    /*animation-name: lionBanner;
+    animation-duration: 3s;*/
 }
 
 .lion1 {
@@ -130,6 +144,7 @@ body {
 
 .lion2 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #dc9c1d;
     position: relative;
@@ -140,6 +155,7 @@ body {
 
 .lion3 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #dc9c1d;
     position: relative;
@@ -152,7 +168,8 @@ body {
     align-items: center;
     display: block;
     margin: 0 auto;
-    top: 300px;
+    position: relative;
+    top: -10px;
 }
 
 .bannerFour {
@@ -162,6 +179,8 @@ body {
     border-left: 10px solid #000000;
     border-right: 10px solid #000000;
     border-bottom: 10px solid #000000;
+    /*animation-name: stagBanner;
+    animation-duration: 3s;*/
 }
 
 .stag1 {
@@ -178,6 +197,7 @@ body {
 
 .stag2 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #000000;
     position: relative;
@@ -188,6 +208,7 @@ body {
 
 .stag3 {
     text-align: center;
+    display: block;
     font-size: 26px;
     color: #000000;
     position: relative;
@@ -200,11 +221,12 @@ body {
     align-items: center;
     display: block;
     margin: 0 auto;
-    top: 300px;
+    position: relative;
+    top: -30px;
 }
 
 
-@keyframes houseBanner {
+@keyframes wolfBanner {
     from {
         margin-top: 100%;
     }
